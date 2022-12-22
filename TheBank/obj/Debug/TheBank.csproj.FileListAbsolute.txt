@@ -1,0 +1,8 @@
+C:\Users\dayen\source\repos\TheBank\TheBank\bin\Debug\TheBank.exe.config
+C:\Users\dayen\source\repos\TheBank\TheBank\bin\Debug\TheBank.exe
+C:\Users\dayen\source\repos\TheBank\TheBank\bin\Debug\TheBank.pdb
+C:\Users\dayen\source\repos\TheBank\TheBank\obj\Debug\TheBank.csproj.AssemblyReference.cache
+C:\Users\dayen\source\repos\TheBank\TheBank\obj\Debug\TheBank.csproj.SuggestedBindingRedirects.cache
+C:\Users\dayen\source\repos\TheBank\TheBank\obj\Debug\TheBank.csproj.CoreCompileInputs.cache
+C:\Users\dayen\source\repos\TheBank\TheBank\obj\Debug\TheBank.exe
+C:\Users\dayen\source\repos\TheBank\TheBank\obj\Debug\TheBank.pdb

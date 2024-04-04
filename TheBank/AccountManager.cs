@@ -22,13 +22,19 @@ namespace TheBank
             bool exist = accounts.FindIndex(c => c.id == id) == -1 ? false : true;
             return exist;
         }
-
         public static void transfer(int to, int from, double value)
         {
             var indexTo = accounts.FindIndex(c => c.id == to);
             var indexFrom = accounts.FindIndex(c => c.id == from);
-            accounts[indexTo].balance += value;
-            accounts[indexFrom].balance -= value;
+            if(accounts[indexTo].balance >= value)
+            {
+                accounts[indexTo].balance += value;
+                accounts[indexFrom].balance -= value;
+            }
+            else
+            {
+                console.WriteLine("Insufficient funds!);
+            }
         }
         public static void listAccounts()
         {
